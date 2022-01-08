@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+body {
+  background-color: #008080;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2 {
+  line-height: 64px;
+}
+
+h1 {
+  color: #103534;
+  font-size: 32px;
+}
+
+h2, h3 {
+  color: #35858B;
+  font-size: 24px;
+}
+
+p {
+  color: #072227;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(117, 59, 78);
+  font-weight: 600;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+}
+
+.card, .card-white {
+  background-color: #f3ffff;
+  padding: 40px;
+  box-shadow:
+  0.4px 0.9px 0.9px -13px rgba(0, 0, 0, 0.037),
+  1px 2.5px 2.5px -13px rgba(0, 0, 0, 0.054),
+  2.4px 6px 5.6px -13px rgba(0, 0, 0, 0.067),
+  8px 20px 18px -13px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 40px 0px;
+  text-align: center;
+}
+
+.imgcircle {
+  border-radius: 50%;
+  margin: 20px 0px;
+}
+
+.imgcocktail {
+  border-radius: 16%;
+  margin: 20px 0px;
+}
+
+/* Heavily inspired by the correction */
+
+.btn-blue {
+  /* background-color: #ffffff; */
+  color: #103534;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #103534;
+  /* color: white; */
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 25px;
+  color: #35858B;
+}
+
+.list-inline i:hover {
+  color: #103534;
+}
+
+#introduction p {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
